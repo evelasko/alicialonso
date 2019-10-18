@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.build.json",
+  
+    "compilerOptions": {
+      "baseUrl": "./packages",
+      "paths": {
+        "@alicialonso/server": ["server/src"],
+        "@alicialonso/prisma": ["prisma/src"],
+        "@alicialonso/*": ["*/src"]
+      }
+    }
+  }

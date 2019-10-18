@@ -1,0 +1,7 @@
+{
+  "name": "alicialonso",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.18.1"
+  }
+}
